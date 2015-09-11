@@ -1,8 +1,11 @@
 #include "myclass.h"
-#include <stdio.h>
-#include <ctype.h>
+#include <iostream>
+#include <cctype>
+//#include <ctype.h>
+#include <clocale>
 namespace myexample{
     int myexample::myclass::dosomething(){
+        using namespace std;
         int i=0;
         char str[]="Test String.\n";
         char c;
